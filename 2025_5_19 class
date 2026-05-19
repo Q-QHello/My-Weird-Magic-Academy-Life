@@ -1,0 +1,50 @@
+My project: My Weird Magic Academy Life — a comedy-focused 2D magic academy life simulator made with Unity.
+Smallest playable version: A small playable prototype where the player can manage stats and progress through several in-game days.
+
+
+Github status: GitHub repository created with initial project setup and README completed.
+
+
+Biggest risk: Finding suitable game assets that match the visual style and scope of the project may take more time than expected.
+
+
+What my game is：A humorous magic academy life simulation game where the player attends a low-ranked magic school after failing to enter a prestigious academy.
+
+
+What the player does: The player explores the academy, manages time and character stats and makes choices that affect progression and endings.
+
+
+What I will build as my vertical slice:
+One academy area
+Basic stat system
+Time progression
+One or two class activities
+Simple UI and dialogue system
+A short playable gameplay loop
+
+
+Scope sorting:
+Must-have:
+Academy map
+NPC interaction
+Basic stat system
+Time progression system
+Simple UI
+One playable gameplay loop
+
+Should-have:
+Multiple academy locations
+Dialogue system
+Sound effects and background music
+Simple event system
+Multiple endings
+
+Could-have:
+Special events
+Mini-games
+Humorous random events
+
+Cut-first:
+Large open world map
+Advanced combat mechanics
+Large numbers of animations or cutscenes
