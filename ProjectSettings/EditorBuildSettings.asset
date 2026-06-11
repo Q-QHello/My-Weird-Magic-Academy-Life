@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DormScene.unity
     guid: 0425323c9df05dc4d92045a2cb2a2e57
+  - enabled: 1
+    path: Assets/Scenes/ArcaneAcademy.unity
+    guid: 760498b9dc915fd438a8f3ff05dfe3cf
+  - enabled: 1
+    path: Assets/Scenes/PotionAcademy.unity
+    guid: 4ef075f087734a54a905d8dc42c0d7f2
+  - enabled: 1
+    path: Assets/Scenes/ResurrectionHallScene.unity
+    guid: c53704c522f8d2249a353a91fd8f4f9a
+  - enabled: 1
+    path: Assets/Scenes/RuneAcademy.unity
+    guid: 2032ebf9e7d1db24caaf7287b4436184
   m_configObjects: {}
