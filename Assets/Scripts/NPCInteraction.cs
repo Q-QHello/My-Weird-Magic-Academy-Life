@@ -1,32 +1,41 @@
 using UnityEngine;
 
+// Handles interaction with the teacher NPC
 public class NPCInteraction : MonoBehaviour
 {
-    public GameObject dialogText;
-    private bool playerInRange;
+// Reference to the dialogue panel
+public GameObject dialoguePanel;
 
-    void Update()
-    {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E))
-        {
-            dialogText.SetActive(true);
-        }
-    }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            playerInRange = true;
-        }
-    }
+// Checks whether the player is near the NPC
+private bool playerInRange = false;
 
-    private void OnTriggerExit2D(Collider2D other)
+void Update()
+{
+    // Open dialogue when the player presses E
+    if (playerInRange && Input.GetKeyDown(KeyCode.E))
     {
-        if (other.CompareTag("Player"))
-        {
-            playerInRange = false;
-            dialogText.SetActive(false);
-        }
+        dialoguePanel.SetActive(true);
     }
+}
+
+private void OnTriggerEnter2D(Collider2D other)
+{
+    // Detect player entering interaction range
+    if (other.CompareTag("Player"))
+    {
+        playerInRange = true;
+    }
+}
+
+private void OnTriggerExit2D(Collider2D other)
+{
+    // Detect player leaving interaction range
+    if (other.CompareTag("Player"))
+    {
+        playerInRange = false;
+    }
+}
+
+
 }
