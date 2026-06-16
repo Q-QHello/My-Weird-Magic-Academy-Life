@@ -56,8 +56,6 @@ private IEnumerator StudyRoutine()
             break;
     }
 
-    // Advance to the next day
-    DayManager.currentDay++;
 
     // Hide the learning screen
     learningPanel.SetActive(false);
