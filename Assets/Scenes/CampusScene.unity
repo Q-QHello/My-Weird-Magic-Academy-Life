@@ -3387,7 +3387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f32af2d1c009a34d839f0d061b8d040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogText: {fileID: 471300300}
+  dialoguePanel: {fileID: 0}
 --- !u!212 &1836233680
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3467,6 +3467,7 @@ GameObject:
   - component: {fileID: 1877908279}
   - component: {fileID: 1877908278}
   - component: {fileID: 1877908277}
+  - component: {fileID: 1877908280}
   m_Layer: 5
   m_Name: StatsPanel
   m_TagString: Untagged
@@ -3535,6 +3536,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1877908280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877908276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b1d30b28c430e349aab294482527a6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arcaneText: {fileID: 1083901082}
+  potionText: {fileID: 1907752096}
+  runeText: {fileID: 176064427}
 --- !u!1 &1907752094
 GameObject:
   m_ObjectHideFlags: 0
