@@ -11,9 +11,21 @@ void Update()
     // Press E to sleep and advance to the next day
     if (playerInRange && Input.GetKeyDown(KeyCode.E))
     {
+        // Advance to the next day
         DayManager.currentDay++;
 
-        Debug.Log("Current Day: " + DayManager.currentDay);
+        // Advance to the next semester when the day limit is reached
+        if (DayManager.currentDay > DayManager.daysPerSemester)
+        {
+            DayManager.currentSemester++;
+            DayManager.currentDay = 1;
+        }
+
+        Debug.Log(
+            "Semester " +
+            DayManager.currentSemester +
+            " Day " +
+            DayManager.currentDay);
     }
 }
 
