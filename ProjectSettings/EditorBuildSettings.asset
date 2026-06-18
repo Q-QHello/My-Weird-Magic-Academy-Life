@@ -29,4 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndingScenes/GoodEndingScene.unity
     guid: ba4474064c4400640afe16f15bb46ea3
+  - enabled: 1
+    path: Assets/Scenes/PotionMinigameScene.unity
+    guid: 42dcad26d65959348a843149e747accf
+  - enabled: 1
+    path: Assets/Scenes/RuneMinigameScene.unity
+    guid: 7aedfbba225e43349b2f6d5454140341
+  - enabled: 1
+    path: Assets/Scenes/ArcaneMinigameScene.unity
+    guid: 5ab3b7f9a6a52564ea82fff400f6a837
   m_configObjects: {}
