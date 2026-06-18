@@ -14,7 +14,7 @@ PlayerStats.rune;
 
 
     // Graduation requirement
-    if (totalStats >= 200)
+    if (totalStats >= 400)
     {
         SceneManager.LoadScene("GoodEndingScene");
     }
